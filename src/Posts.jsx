@@ -6,7 +6,7 @@ function Posts() {
 
   useEffect(() => {
 
-    fetch('http://localhost:3000/posts')
+    fetch('https://instagram-clone-theta-seven.vercel.app/posts')
       .then((data) => data.json())
       .then((data) => setPosts(data))
       .catch((err) => console.log(err))
