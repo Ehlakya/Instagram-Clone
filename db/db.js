@@ -1,10 +1,11 @@
+
 export const posts = [
   {
     id: 1,
     user: {
       id: 101,
       username: "john_doe",
-      profile: "/src/assets/user1.jpeg",
+      profile: "src/assets/user1.jpeg",
     },
     image: "/src/assets/user_image1.jpg",
     caption: "Enjoying the beach vibes! 🌊☀️ #vacation",
@@ -77,3 +78,95 @@ export const posts = [
     timestamp: "2025-09-20T10:00:00Z",
   },
 ];
+export const Profile = {
+  id: 101,
+  username: "john",
+  profile: "src/assets/user1.jpeg",
+};
+
+export const suggestions = [
+  {
+    id: 101,
+    username: "john_doe",
+    profile: "src/assets/user1.jpeg",
+  },
+  {
+    id: 102,
+    username: "tech_guy",
+    profile: "src/assets/user2.jpeg",
+  },
+  {
+    id: 103,
+    username: "travel_guru",
+    profile: "src/assets/user3.jpg",
+  },
+  {
+    id: 104,
+    username: "foodie_anna",
+    profile: "src/assets/user4.jpg",
+  },
+  {
+    id: 105,
+    username: "john",
+    profile: "src/assets/user1.jpeg",
+  },
+];
+
+export const story = [
+  {
+    id: 1,
+    user: {
+      id: 101,
+      username: "john_doe",
+      profile: "src/assets/user1.jpeg",
+    },
+    image: "src/assets/story_img1.webp",
+  },
+  {
+    id: 2,
+    user: {
+      id: 102,
+      username: "tech_guy",
+      profile: "src/assets/user2.jpeg",
+    },
+    image: "src/assets/story_img2.jpeg",
+  },
+  {
+    id: 3,
+    user: {
+      id: 103,
+      username: "travel_guru",
+      profile: "src/assets/user3.jpg",
+    },
+    image: "src/assets/story_img3.jpg",
+  },
+  {
+    id: 4,
+    user: {
+      id: 104,
+      username: "foodie_anna",
+      profile: "src/assets/user4.jpg",
+    },
+    image: "src/assets/story_img4.jpg",
+  },
+];
+
+export const followers = [
+  {
+    id: 104,
+    username: "foodie_anna",
+  },
+  {
+    id: 103,
+    username: "travel_guru",
+  },
+  {
+    id: 101,
+    username: "john_doe",
+  },
+  {
+    id: 101,
+    username: "john_doe",
+  },
+];
+

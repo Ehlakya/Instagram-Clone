@@ -3,6 +3,7 @@ import Sidebar from './Sidebar'
 import Feed from './Feed'
 import Suggestions from './Suggestions'
 
+
 function App() {
   return (
     <div className='d-flex vh-100 '>
