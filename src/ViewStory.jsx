@@ -41,7 +41,7 @@ function ViewStory() {
           {/* Main Story Image */}
           <img 
             className="vh-100 mx-2" 
-            src={`/${story.image}`} 
+            src={`${story.image}`} 
             alt="story" 
           />
 
