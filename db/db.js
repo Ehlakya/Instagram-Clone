@@ -5,9 +5,9 @@ export const posts = [
     user: {
       id: 101,
       username: "john_doe",
-      profile: "src/assets/user1.jpeg",
+      profile: "../src/assets/user1.jpeg",
     },
-    image: "/src/assets/user_image1.jpg",
+    image: "../src/assets/user_image1.jpg",
     caption: "Enjoying the beach vibes! 🌊☀️ #vacation",
     likes: 120,
     comments: [
