@@ -5,9 +5,9 @@ export const posts = [
     user: {
       id: 101,
       username: "john_doe",
-      profile: "../src/assets/user1.jpeg",
+      profile: "/assets/user1.jpeg",
     },
-    image: "../src/assets/user_image1.jpg",
+    image: "/assets/user_image1.jpg",
     caption: "Enjoying the beach vibes! 🌊☀️ #vacation",
     likes: 120,
     comments: [
@@ -21,9 +21,9 @@ export const posts = [
     user: {
       id: 102,
       username: "tech_guy",
-      profile: "src/assets/user2.jpeg",
+      profile: "/assets/user2.jpeg",
     },
-    image: "src/assets/user_image2.jpg",
+    image: "/assets/user_image2.jpg",
     caption: "Just built my first Instagram clone! 💻🔥",
     likes: 89,
     comments: [{ username: "coder_girl", text: "Awesome work!" }],
@@ -34,9 +34,9 @@ export const posts = [
     user: {
       id: 103,
       username: "travel_guru",
-      profile: "src/assets/user3.jpg",
+      profile: "/assets/user3.jpg",
     },
-    image: "src/assets/user_image3.jpg",
+    image: "/assets/user_image3.jpg",
     caption: "Lost in the streets of Italy 🇮🇹❤️ #wanderlust",
     likes: 205,
     comments: [
@@ -50,9 +50,9 @@ export const posts = [
     user: {
       id: 104,
       username: "foodie_anna",
-      profile: "src/assets/user4.jpg",
+      profile: "/assets/user4.jpg",
     },
-    image: "src/assets/user_image4.jpg",
+    image: "/assets/user_image4.jpg",
     caption: "Brunch done right 🥞🍓 #foodie",
     likes: 231,
     comments: [
@@ -66,9 +66,9 @@ export const posts = [
     user: {
       id: 105,
       username: "benitta._",
-      profile: "src/assets/user5.jpg",
+      profile: "/assets/user5.jpg",
     },
-    image: "src/assets/user_image5.jpg",
+    image: "/assets/user_image5.jpg",
     caption: "True friends are like stars❤️",
     likes: 220,
     comments: [
@@ -81,34 +81,34 @@ export const posts = [
 export const Profile = {
   id: 101,
   username: "john",
-  profile: "src/assets/user1.jpeg",
+  profile: "/assets/user1.jpeg",
 };
 
 export const suggestions = [
   {
     id: 101,
     username: "john_doe",
-    profile: "src/assets/user1.jpeg",
+    profile: "/assets/user1.jpeg",
   },
   {
     id: 102,
     username: "tech_guy",
-    profile: "src/assets/user2.jpeg",
+    profile: "/assets/user2.jpeg",
   },
   {
     id: 103,
     username: "travel_guru",
-    profile: "src/assets/user3.jpg",
+    profile: "/assets/user3.jpg",
   },
   {
     id: 104,
     username: "foodie_anna",
-    profile: "src/assets/user4.jpg",
+    profile: "/assets/user4.jpg",
   },
   {
     id: 105,
     username: "john",
-    profile: "src/assets/user1.jpeg",
+    profile: "/assets/user1.jpeg",
   },
 ];
 
@@ -118,36 +118,36 @@ export const story = [
     user: {
       id: 101,
       username: "john_doe",
-      profile: "src/assets/user1.jpeg",
+      profile: "/assets/user1.jpeg",
     },
-    image: "src/assets/story_img1.webp",
+    image: "/assets/story_img1.webp",
   },
   {
     id: 2,
     user: {
       id: 102,
       username: "tech_guy",
-      profile: "src/assets/user2.jpeg",
+      profile: "/assets/user2.jpeg",
     },
-    image: "src/assets/story_img2.jpeg",
+    image: "/assets/story_img2.jpeg",
   },
   {
     id: 3,
     user: {
       id: 103,
       username: "travel_guru",
-      profile: "src/assets/user3.jpg",
+      profile: "/assets/user3.jpg",
     },
-    image: "src/assets/story_img3.jpg",
+    image: "/assets/story_img3.jpg",
   },
   {
     id: 4,
     user: {
       id: 104,
       username: "foodie_anna",
-      profile: "src/assets/user4.jpg",
+      profile: "/assets/user4.jpg",
     },
-    image: "src/assets/story_img4.jpg",
+    image: "/assets/story_img4.jpg",
   },
 ];
 
